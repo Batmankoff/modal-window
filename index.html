@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal window</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <button class="show-modal-window">Модальное Окно</button>
+
+    <div class="modal-window hidden">
+      <h1 class="modal-window__title">Успех</h1>
+      <p class="modal-window__text">Ух ты, успешно выполнил 3/5 заданий</p>
+      <div class="modal-window__wrapper">
+        <button class="close-modal-window">Отмена</button>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
